@@ -2,10 +2,17 @@
     nav{
         & .small{
             display: block;
+            left: -1rem;
             & i{
                 font-size: 1.8rem;
             }
         }
+        & ul{
+            display: none;
+            transition: 0.5s;
+        }
+    }
+    .nav{
         & ul{
             width: calc(100% - 1rem);
             position: absolute;
@@ -13,7 +20,11 @@
             flex-direction: column;
             align-items: end;
             padding-right: 1rem;
-            top: 3.5rem;
+            top: 3rem;
+            padding-top: 0.5rem;
+            background: #fff9;
         }
     }
+
+    
 }
