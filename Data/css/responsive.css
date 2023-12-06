@@ -1,0 +1,19 @@
+@media  (max-width: 1024px) {
+    nav{
+        & .small{
+            display: block;
+            & i{
+                font-size: 1.8rem;
+            }
+        }
+        & ul{
+            width: calc(100% - 1rem);
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            padding-right: 1rem;
+            top: 3.5rem;
+        }
+    }
+}

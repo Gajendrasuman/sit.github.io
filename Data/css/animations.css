@@ -1,0 +1,75 @@
+@keyframes enlarge{
+    from{
+        width: 10%;
+        margin: 0 45%;
+    }
+    to{
+        width: 100%;
+        margin: 0%;
+    }
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    5%{
+        transform: rotate(90deg);
+    }
+    10%{
+        transform: rotate(0deg);
+    }
+    15%{
+        transform: rotate(45deg);
+    }
+    20%{
+        transform: rotate(0deg);
+    }
+    80%{
+        transform: rotate(calc(360deg * 500));
+    }
+}
+@keyframes pulse {
+    50% {
+        opacity: .5;
+    }
+}
+
+@keyframes pulse2 {
+    50% {
+        color: transparent;
+    }
+}
+
+@keyframes flow{
+    100%{
+        top: -6rem
+    }
+}
+
+@keyframes slow-spin {
+    100%{
+        transform: rotate(calc(360deg*2))
+    }
+}
+
+@keyframes neon-spin{
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes zoom-out{
+    from{
+        scale: 1;
+    }
+    to{
+        scale: 0;
+    }
+}
+
+@keyframes hide{
+    to{
+        opacity: 0;
+    }
+}
